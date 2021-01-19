@@ -58,7 +58,8 @@ module.exports = function transformer(file, api) {
   const newImportDeclarations = needImporting.map((lodashFnName) => {
     return j.importDeclaration(
       [j.importDefaultSpecifier(j.identifier(lodashFnName))],
-      j.literal(`lodash/${lodashFnName}`));
+      j.literal(`lodash/${lodashFnName}`)
+    );
   });
 
   lodashImportDeclarations.insertAfter(newImportDeclarations);
