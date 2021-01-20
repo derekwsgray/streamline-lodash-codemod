@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/derekwsgray/streamline-lodash-codemod"
   },
+  "author": {
+    "name": "Derek W. S. Gray",
+    "url": "https://github.com/derekwsgray"
+  },
   "scripts": {
     "lint": "eslint --cache .",
     "test": "codemod-cli test",
