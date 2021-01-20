@@ -14,7 +14,7 @@ module.exports = function transformer(file, api) {
   // Remove lodash import
   const lodashImportDeclarations = root.find(j.ImportDeclaration, {
     source: {
-      type: 'Literal',
+      type: 'StringLiteral',
       value: 'lodash'
     }
   });
