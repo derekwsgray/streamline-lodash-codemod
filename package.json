@@ -2,12 +2,15 @@
   "name": "streamline-lodash-codemod",
   "version": "0.1.0",
   "description": "A jscodeshift codemod to change whole lodash imports into just importing the lodash functions used.",
+  "homepage": "https://github.com/derekwsgray/streamline-lodash-codemod#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/derekwsgray/streamline-lodash-codemod"
   },
+  "license": "MIT",
   "author": {
     "name": "Derek W. S. Gray",
+    "email": "github@mudflye.org",
     "url": "https://github.com/derekwsgray"
   },
   "scripts": {
@@ -19,7 +22,9 @@
   },
   "bin": "./bin/cli.js",
   "keywords": [
-    "codemod-cli"
+    "codemod-cli",
+    "codemod",
+    "lodash"
   ],
   "dependencies": {
     "codemod-cli": "^3.1.1"
